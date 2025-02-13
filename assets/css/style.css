@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --fonte-titulo: "Coiny", serif;
+    --fonte-corpo: "Montserrat", serif;
+    --fundo: #f1f8ff;
+    --azul-escuro: #0d3052;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-size: 46px;
+    margin: 0;
+}
+
+h2,
+h3,
+h4 {
+    font-family: var(--fonte-corpo);
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+    background-color: var(--fundo);
+    color: var(--azul-escuro);
+    background-image: url('../img/fundo-img.png');
+    background-repeat: repeat;
+    background-size: 50%;
+    text-align: center;
+}
+
+header,
+main {
+    background-color: var(--fundo);
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+
+header img {
+    width: 150px;
+}
+
+.card-div {
+    display: flex;
+}
+
+.div-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+}
+
+
+.card-item {
+    border: 1px solid var(--azul-escuro);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card-item img {
+    width: 100px;
+    padding: 12px;
+}
+
+.btn {
+    background-color: var(--azul-escuro);
+    color: var(--fundo);
+    border-radius: 10px;
+    padding: 10px;
+}
