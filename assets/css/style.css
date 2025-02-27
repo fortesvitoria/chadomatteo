@@ -68,6 +68,12 @@ main {
     padding-bottom: 15px;
 }
 
+.texto-cartao {    
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600!important;
+}
+
 .card {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px rgba(0,0,0,0.1);
     background-color: var(--fundo)!important;
@@ -109,10 +115,7 @@ main {
     padding: 10px;
 }
 
-.texto-cartao {
-    font-size: 16px;
-    font-weight: 600!important;
-}
+
 .confirma {
     font-size: 14px;
 }
