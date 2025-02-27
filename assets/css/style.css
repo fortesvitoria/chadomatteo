@@ -112,3 +112,15 @@ main {
 .bold {
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0.75em;
+    }
+
+    .card-header img {
+        width: 50%!important;
+    }
+
+}
