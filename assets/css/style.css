@@ -5,7 +5,7 @@
 
     --fonte-titulo: "Coiny", serif;
     --fonte-corpo: "Montserrat", serif;
-    --fundo: #dfefff;
+    --fundo: #f1f8ff;
     --azul-escuro: #0d3052;    
     --azul-hover: #1d5b99;
 }
@@ -56,16 +56,14 @@ body {
 
 header,
 main {
-    background-color: var(--fundo);
     border-radius: 30px;
     padding: 1em;
 }
 
-
-
-
 .card {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px rgba(0,0,0,0.1);
+    background-color: var(--fundo)!important;
+    padding: 0;
 }
 
 .card-footer a {    
@@ -93,7 +91,7 @@ main {
 }
 
 .card-header img {
-    max-width: 25%!important;
+    width: 25%!important;
 }
 
 .btn {
