@@ -6,27 +6,27 @@
     --fonte-titulo: "Coiny", serif;
     --fonte-corpo: "Montserrat", serif;
     --fundo: #f1f8ff;
-    --azul-escuro: #0d3052;
+    --azul-escuro: #0d3052;    
+    --azul-hover: #1d5b99;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 h1 {
     font-family: var(--fonte-titulo);
     text-transform: uppercase;
     font-size: 46px;
     margin: 0;
+    color: var(--azul-escuro);
 }
 
 h2,
 h3,
-h4 {
+h4,
+h5,
+p {
     font-family: var(--fonte-corpo);
+
+    color: var(--azul-escuro);
 }
 
 h2 {
@@ -42,6 +42,15 @@ a {
     text-decoration: none;
 }
 
+
+.card-footer a {    
+    color: var(--azul-escuro)!important;
+}
+
+.card-footer a:hover {    
+    color: var(--azul-hover)!important;
+}
+
 body {
     font-family: var(--fonte-corpo);
     font-size: 16px;
@@ -51,22 +60,18 @@ body {
     background-repeat: repeat;
     background-size: 50%;
     text-align: center;
+    padding: 2em;
 }
 
 header,
 main {
     background-color: var(--fundo);
     border-radius: 30px;
-    padding: 20px 30px;
-    margin: 30px;
+    padding: 1em;
 }
 
-header img {
-    width: 150px;
-}
-
-.card-div {
-    display: flex;
+.card-header img {
+    max-width: 25%!important;
 }
 
 .div-item {
@@ -95,4 +100,16 @@ header img {
     color: var(--fundo);
     border-radius: 10px;
     padding: 10px;
+}
+
+.texto-cartao {
+    font-size: 16px;
+    font-weight: 600!important;
+}
+.confirma {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: 600;
 }
