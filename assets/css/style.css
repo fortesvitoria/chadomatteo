@@ -40,18 +40,7 @@ h3 {
 
 a {
     text-decoration: none;
-}
-
-.card {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px rgba(0,0,0,0.1);
-}
-
-.card-footer a {    
-    color: var(--azul-escuro)!important;
-}
-
-.card-footer a:hover {    
-    color: var(--azul-hover)!important;
+    font-family: var(--fonte-corpo);
 }
 
 body {
@@ -61,7 +50,6 @@ body {
     color: var(--azul-escuro);
     background-image: url('../img/fundo-img.png');
     background-repeat: repeat;
-    background-size: 50%;
     text-align: center;
     padding: 2em;
 }
@@ -75,6 +63,19 @@ main {
 
 .card-header img {
     max-width: 25%!important;
+}
+
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px rgba(0,0,0,0.1);
+}
+
+.card-footer a {    
+    color: var(--azul-escuro)!important;
+}
+
+.card-footer a:hover {    
+    color: var(--azul-hover)!important;
 }
 
 .div-item {
